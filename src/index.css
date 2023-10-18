@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  body {
+    @apply flex justify-center items-center bg-gray-100 w-screen
+  }
+  .page {
+    @apply h-screen flex justify-center items-center text-5xl font-bold w-full
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
